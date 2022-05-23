@@ -1,0 +1,37 @@
+* {
+    margin : 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif, 'Times New Roman';
+    background-image: url('./pics/black-yellow.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: rgb(231, 170, 16);
+}
+.container {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 150%
+}
+
+#calc {
+    border: 1px solid rgb(231, 170, 16);
+    width: 400px;
+    height: 300px;
+    text-align: center;    
+}
+
+td {
+    border: 1px solid rgb(231, 170, 16);
+}
+
+input {
+    width:400px;
+    margin-top:50%;
+    height:50px;
+    border: 1px solid black;
+}
